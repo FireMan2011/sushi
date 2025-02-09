@@ -1,16 +1,16 @@
 const imagesList = [
-  "../images/heart_broken0.gif",
-  "../images/heart_broken1.gif",
-  "../images/heart_broken2.gif",
-  "../images/heart_broken3.gif",
-  "../images/heart_broken4.gif",
-  "../images/heart_broken5.gif",
-  "../images/heart_broken6.gif",
-  "../images/heart_broken7.gif",
-  "../images/heart_broken8.gif",
-  "../images/heart_broken9.gif",
-  "../images/heart_broken10.gif",
-  "../images/heart_broken11.gif",
+  "./images/heart_broken0.gif",
+  "./images/heart_broken1.gif",
+  "./images/heart_broken2.gif",
+  "./images/heart_broken3.gif",
+  "./images/heart_broken4.gif",
+  "./images/heart_broken5.gif",
+  "./images/heart_broken6.gif",
+  "./images/heart_broken7.gif",
+  "./images/heart_broken8.gif",
+  "./images/heart_broken9.gif",
+  "./images/heart_broken10.gif",
+  "./images/heart_broken11.gif",
 ];
 
 const noButtonNamesList = [
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   yesButton.addEventListener("click", () => {
-    sushiImage.src = "../images/love.gif";
+    sushiImage.src = "./images/love.gif";
     sushiImage.style.width = "70%";
 
     title.textContent = "I knew you would say YES!";
